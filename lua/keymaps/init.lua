@@ -1,0 +1,8 @@
+require("keymaps.telescope")
+require("keymaps.aerial")
+require("keymaps.fun")
+require("keymaps.git")
+require("keymaps.neotree")
+require("keymaps.terminal")
+require("keymaps.todo")
+require("keymaps.trouble")
