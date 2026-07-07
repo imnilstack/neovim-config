@@ -21,6 +21,9 @@ vim.keymap.set({ "n", "i", "v" }, "<Down>", "<Nop>")
 vim.keymap.set({ "n", "i", "v" }, "<Left>", "<Nop>")
 vim.keymap.set({ "n", "i", "v" }, "<Right>", "<Nop>")]]
 
+vim.wo.number = true
+vim.wo.relativenumber = true
+
 vim.keymap.set("n", "<leader>tl", function()
 	local wo = vim.wo
 
