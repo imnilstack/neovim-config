@@ -2,6 +2,8 @@ return {
 	{
 		"akinsho/toggleterm.nvim",
 		version = "*",
-		opts = {}, -- default options
+		opts = {
+			shell = vim.fn.exepath("zsh"),
+		},
 	},
 }
