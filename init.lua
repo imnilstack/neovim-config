@@ -4,13 +4,9 @@ vim.g.maplocalleader = "\\"
 
 -- Requires
 require("config.lazy")
+require("config.options")
 require("keymaps.init")
 require("colors.caelestia-dynamic-colors").setup()
-
--- Other Settings
-vim.opt.number = true
-vim.opt.relativenumber = false
-vim.opt.termguicolors = true
 
 -- Colorscheme Watcher
 local dir = vim.fn.expand("~/.config/hypr/scheme")
