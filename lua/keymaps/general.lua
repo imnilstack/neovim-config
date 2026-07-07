@@ -1,5 +1,19 @@
+local map = vim.keymap.set
+
 -- Custom Mappings
 vim.keymap.set("i", "jj", "<Esc>", { noremap = true, silent = true })
+
+-- normal mode window navigation
+map("n", "<A-h>", "<C-w>h", { desc = "Go to left window" })
+map("n", "<A-j>", "<C-w>j", { desc = "Go to lower window" })
+map("n", "<A-k>", "<C-w>k", { desc = "Go to upper window" })
+map("n", "<A-l>", "<C-w>l", { desc = "Go to right window" })
+
+-- terminal mode window navigation
+map("t", "<A-h>", [[<C-\><C-n><C-w>h]], { desc = "Go to left window" })
+map("t", "<A-j>", [[<C-\><C-n><C-w>j]], { desc = "Go to lower window" })
+map("t", "<A-k>", [[<C-\><C-n><C-w>k]], { desc = "Go to upper window" })
+map("t", "<A-l>", [[<C-\><C-n><C-w>l]], { desc = "Go to right window" })
 
 -- remove arrow keys cuz trash
 --[[vim.keymap.set({ "n", "i", "v" }, "<Up>", "<Nop>")
