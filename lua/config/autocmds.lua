@@ -7,7 +7,7 @@ watcher:start(
 	dir,
 	{},
 	vim.schedule_wrap(function(err, filename)
-		if err or filename ~= "current.conf" then
+		if err or filename ~= "current.lua" then
 			return
 		end
 
