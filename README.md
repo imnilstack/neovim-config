@@ -11,6 +11,10 @@
 
 </div>
 
+<p align="center">
+<img src="./assets/preview.png" width="95%">
+</p>
+
 A personal, modular **Neovim** configuration built with **Lua** and powered by **Lazy.nvim**.
 This setup is designed for a smooth development workflow with modern completion, LSP support, fuzzy finding, Git integration, terminal workflows, and a polished UI.
 
