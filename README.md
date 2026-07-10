@@ -60,11 +60,7 @@ Before installing, make sure you have:
 
 - **Neovim**
 - **Git**
-- **Zsh**
-
-  > [!NOTE]
-  > `ToggleTerm` is configured to use `zsh` as the shell.
-
+- **Zsh** — ToggleTerm is configured to use it as the default shell.
 - A Nerd Font or icon-capable font for the best visual experience
 
 ---
