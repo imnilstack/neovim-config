@@ -1,3 +1,19 @@
+<h1 align="center">Neovim Configuration</h1>
+
+<div align="center">
+
+<a href="https://github.com/neovim/neovim">
+    <img src="https://img.shields.io/badge/Neovim-57A143?style=for-the-badge&logo=neovim&logoColor=ffffff&labelColor=101418" alt="Neovim">
+</a>
+
+<br><br>
+
+![GitHub last commit](https://img.shields.io/github/last-commit/imnilstack/neovim-config?style=for-the-badge&labelColor=101418&color=9ccbfb)
+![GitHub Repo stars](https://img.shields.io/github/stars/imnilstack/neovim-config?style=for-the-badge&labelColor=101418&color=b9c8da)
+![GitHub repo size](https://img.shields.io/github/repo-size/imnilstack/neovim-config?style=for-the-badge&labelColor=101418&color=d3bfe6)
+
+</div>
+
 # Neovim Configuration
 
 A personal, modular **Neovim** configuration built with **Lua** and powered by **Lazy.nvim**.
